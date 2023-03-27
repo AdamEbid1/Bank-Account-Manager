@@ -125,11 +125,6 @@ def get_sd(x: list[float]) -> float:
     return (sd / n) ** 0.5
 
 
-###############################################################################
-# Your function implementation
-###############################################################################
-
-
 def load_financial_data(client_data: TextIO) -> dict[tuple[str, int],
                                                      list[list[float]]]:
     """
